@@ -1,0 +1,48 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_ask_plan
+- utter_inform_insurance
+- action_plan
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_plan
+- utter_inform_insurance
+- actions.ActionPlan
+config:
+  store_entities_as_slots: true
+entities:
+- plan
+intents:
+- greet
+- inform
+- goodbye
+- inform_insurance
+slots:
+  plan:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_plan:
+  - text: About which plan would you like to know?
+  utter_goodbye:
+  - text: See you later!
+  - text: Hope I was helpful. Until next time!
+  - text: Bye Bye :(
+  - text: Talk to you later.
+  utter_greet:
+  - text: Hello! How can I help?
+  - text: Hi There! I am your personal insurance bot. How can I help?
+  - text: Hola! What do you want to know?
+  utter_inform_insurance:
+  - text: Life insurance (or life assurance, especially in the Commonwealth of Nations)
+      is a contract between an insurance policy holder and an insurer or assurer,
+      where the insurer promises to pay a designated beneficiary a sum of money (the
+      benefit) in exchange for a premium, upon the death of an insured person (often
+      the policy holder). Depending on the contract, other events such as terminal
+      illness or critical illness can also trigger payment. The policy holder typically
+      pays a premium, either regularly or as one lump sum. Other expenses, such as
+      funeral expenses, can also be included in the benefits.
+topics: []

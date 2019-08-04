@@ -1,0 +1,17 @@
+{
+  "features": [
+    "intent_greet",
+    "intent_inform",
+    "intent_goodbye",
+    "intent_inform_insurance",
+    "entity_plan",
+    "slot_plan_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_utter_ask_plan",
+    "prev_utter_inform_insurance",
+    "prev_action_plan"
+  ]
+}
