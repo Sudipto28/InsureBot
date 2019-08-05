@@ -11,12 +11,12 @@ class ActionPlan(Action):
         plan = tracker.get_slot('plan')
         connection = pyodbc.connect(
             'Driver={SQL Server Native Client 11.0};'
-            'Server=localhost;'
-            'Database=DB_First;'
+            'Server=ServerName;'
+            'Database=DBName;'
             'Trusted_Connection=yes;'
         )
         cursor = connection.cursor()
-        query = """exec usp_GetDetails '{}'""".format(plan)
+        query = "query to fetch details from the database"
         cursor.execute(query)
 
         for row in cursor:
