@@ -14,7 +14,7 @@ from rasa_core.interpreter import RasaNLUInterpreter  # Parser to parse incoming
 logger = logging.getLogger(__name__)
 
 
-def run_weather_online(input_channel, interpreter,
+def run_insurance_online(input_channel, interpreter,
                        domain_file="insurance_domain.yml",
                        training_data_file='data/stories.md'):
     agent = Agent(domain_file,
@@ -34,4 +34,4 @@ def run_weather_online(input_channel, interpreter,
 if __name__ == '__main__':
     logging.basicConfig(level="INFO")
     nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/insurancenlu')
-    run_weather_online(ConsoleInputChannel(), nlu_interpreter)
+    run_insurance_online(ConsoleInputChannel(), nlu_interpreter)
