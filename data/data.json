@@ -167,6 +167,42 @@
             "entity": "plan"
           }
         ]
+      },
+      {
+        "text": "i would like to know about ulip",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "ulip",
+            "entity": "plan"
+          }
+        ]
+      },
+      {
+        "text": "i would like to know about unit linked",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 38,
+            "value": "unit linked",
+            "entity": "plan"
+          }
+        ]
+      },
+      {
+        "text": "how about retirement plan",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 25,
+            "value": "retirement plan",
+            "entity": "plan"
+          }
+        ]
       }
     ]
   }
