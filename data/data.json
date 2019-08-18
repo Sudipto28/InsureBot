@@ -203,6 +203,45 @@
             "entity": "plan"
           }
         ]
+      },
+      {
+        "text": "what are the types of insurance plans available in india?",
+        "intent": "inform_insurance_type",
+        "entities": []
+      },
+      {
+        "text": "insurance plans",
+        "intent": "inform_insurance_type",
+        "entities": []
+      },
+      {
+        "text": "I wonder what are the types of insurance plans available",
+        "intent": "inform_insurance_type",
+        "entities": []
+      },
+      {
+        "text": "can you tell me something about retirement plan",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 32,
+            "end": 47,
+            "value": "retirement plan",
+            "entity": "plan"
+          }
+        ]
+      },
+      {
+        "text": "alright. can you tell me something about ulip",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 41,
+            "end": 45,
+            "value": "ulip",
+            "entity": "plan"
+          }
+        ]
       }
     ]
   }

@@ -520,18 +520,6 @@
 * goodbye
     - utter_goodbye
     - export
-## Generated Story 1816211097531749510
-    - utter_goodbye
-    - export
-## Generated Story 1816211097531749510
-    - utter_goodbye
-    - export
-## Generated Story 1816211097531749510
-    - utter_goodbye
-    - export
-## Generated Story 1816211097531749510
-    - utter_goodbye
-    - export
 ## Generated Story -7877819940718016573
 * goodbye
     - utter_goodbye
@@ -583,4 +571,26 @@
     - slot{"plan": "back plan"}
 * greet
     - utter_goodbye
+    - export
+## Generated Story -6086240596865888005
+* greet
+    - utter_greet
+* inform_insurance
+    - utter_inform_insurance
+* inform{"plan": "endowment plan"}
+    - slot{"plan": "endowment plan"}
+    - action_plan
+    - slot{"plan": "endowment plan"}
+* inform
+    - utter_goodbye
+    - export
+## Generated Story 7570787540145351708
+* greet
+    - utter_greet
+* inform
+    - utter_inform_insurance_type
+* inform{"plan": "ulip"}
+    - slot{"plan": "ulip"}
+    - action_plan
+    - slot{"plan": "ulip"}
     - export
