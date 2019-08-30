@@ -12,6 +12,18 @@
         "entities": []
       },
       {
+        "text": "What's the weather in Berlin at the moment?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ]
+      },
+      {
         "text": "hey",
         "intent": "greet",
         "entities": []
@@ -67,181 +79,237 @@
         "entities": []
       },
       {
-        "text": "sayonara",
-        "intent": "goodbye",
-        "entities": []
-      },
-      {
-        "text": "define insurance",
-        "intent": "inform_insurance",
-        "entities": []
-      },
-      {
-        "text": "what is insurance",
-        "intent": "inform_insurance",
-        "entities": []
-      },
-      {
-        "text": "how do you define insurance",
-        "intent": "inform_insurance",
-        "entities": []
-      },
-      {
-        "text": "insurance",
-        "intent": "inform_insurance",
-        "entities": []
-      },
-      {
-        "text": "tell me about the insurance plans in india",
+        "text": "What's the weather today?",
         "intent": "inform",
         "entities": []
       },
       {
-        "text": "what is endowment plan",
+        "text": "What's the weather in London today?",
         "intent": "inform",
         "entities": [
           {
-            "start": 8,
-            "end": 22,
-            "value": "endowment plan",
-            "entity": "plan"
+            "start": 22,
+            "end": 28,
+            "value": "London",
+            "entity": "location"
           }
         ]
       },
       {
-        "text": "define endowment plan",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 7,
-            "end": 21,
-            "value": "endowment plan",
-            "entity": "plan"
-          }
-        ]
-      },
-      {
-        "text": "how do you define term plan",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 18,
-            "end": 27,
-            "value": "term plan",
-            "entity": "plan"
-          }
-        ]
-      },
-      {
-        "text": "tell me about something about retirement plan",
+        "text": "Show me what's the weather in Paris",
         "intent": "inform",
         "entities": [
           {
             "start": 30,
-            "end": 45,
-            "value": "retirement plan",
-            "entity": "plan"
+            "end": 35,
+            "value": "Paris",
+            "entity": "location"
           }
         ]
       },
       {
-        "text": "ulip",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 0,
-            "end": 4,
-            "value": "ulip",
-            "entity": "plan"
-          }
-        ]
-      },
-      {
-        "text": "define ulip",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 7,
-            "end": 11,
-            "value": "ulip",
-            "entity": "plan"
-          }
-        ]
-      },
-      {
-        "text": "i would like to know about ulip",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 27,
-            "end": 31,
-            "value": "ulip",
-            "entity": "plan"
-          }
-        ]
-      },
-      {
-        "text": "i would like to know about unit linked",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 27,
-            "end": 38,
-            "value": "unit linked",
-            "entity": "plan"
-          }
-        ]
-      },
-      {
-        "text": "how about retirement plan",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 10,
-            "end": 25,
-            "value": "retirement plan",
-            "entity": "plan"
-          }
-        ]
-      },
-      {
-        "text": "what are the types of insurance plans available in india?",
-        "intent": "inform_insurance_type",
-        "entities": []
-      },
-      {
-        "text": "insurance plans",
-        "intent": "inform_insurance_type",
-        "entities": []
-      },
-      {
-        "text": "I wonder what are the types of insurance plans available",
-        "intent": "inform_insurance_type",
-        "entities": []
-      },
-      {
-        "text": "can you tell me something about retirement plan",
+        "text": "I wonder what is the weather in Vilnius right now?",
         "intent": "inform",
         "entities": [
           {
             "start": 32,
-            "end": 47,
-            "value": "retirement plan",
-            "entity": "plan"
+            "end": 39,
+            "value": "Vilnius",
+            "entity": "location"
           }
         ]
       },
       {
-        "text": "alright. can you tell me something about ulip",
+        "text": "what is the weather?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Tell me the weather",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Is the weather nice in Barcelona today?",
         "intent": "inform",
         "entities": [
           {
-            "start": 41,
-            "end": 45,
-            "value": "ulip",
-            "entity": "plan"
+            "start": 23,
+            "end": 32,
+            "value": "Barcelona",
+            "entity": "location"
           }
         ]
+      },
+      {
+        "text": "I am going to London today and I wonder what is the weather out there?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "London",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I am planning my trip to Amsterdam. What is the weather out there?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Amsterdam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Show me the weather in Dublin, please",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Dublin",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in London",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "London",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Lithuania",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Lithuania",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Oh, sorry, in Italy",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the weather in Vilnius",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "The weather condition in Italy",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "How is the weather in Bangalore?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Bangalore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Weather Bangalore",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "Bangalore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "who created you?",
+        "intent": "founder",
+        "entities": []
+      },
+      {
+        "text": "who is your developer?",
+        "intent": "founder",
+        "entities": []
+      },
+      {
+        "text": "how did you come into existence?",
+        "intent": "founder",
+        "entities": []
+      },
+      {
+        "text": "how were you created?",
+        "intent": "founder",
+        "entities": []
+      },
+      {
+        "text": "who is your father?",
+        "intent": "founder",
+        "entities": []
+      },
+      {
+        "text": "alright then. bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "ok. bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "ok bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "alright. thank you. buhbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "buhbye",
+        "intent": "goodbye",
+        "entities": []
       }
     ]
   }
