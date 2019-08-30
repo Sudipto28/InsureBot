@@ -1,596 +1,193 @@
+## Generated Story 3320800183399695936
+* greet
+    - utter_greet
+* inform
+    - utter_ask_location
+* inform{"location": "italy"}
+    - slot{"location": "italy"}
+    - action_weather
+    - slot{"location": "italy"}
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -3351152636827275381
+* greet
+    - utter_greet
+* inform[location=London]
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 8921121480760034253
+* greet
+    - utter_greet
+* inform
+    - utter_ask_location
+* inform[location=London]
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -5208991511085841103
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -5208991511085841103
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
 ## story_001
 * greet
-	- utter_greet
+   - utter_greet
 * inform
-	- utter_ask_plan
-* inform[plan=Endowment Plan]
-	- slot{"plan": "Endowment Plan"}
-	- action_plan
+   - utter_ask_location
+* inform[location=London]
+   - slot{"location": "London"}
+   - action_weather
 * goodbye
-    - utter_goodbye
-
-
+   - utter_goodbye
 ## story_002
 * greet
-	- utter_greet
-* inform
-	- utter_ask_plan
-* inform[plan=termplan]
-	- slot{"plan": "termplan"}
-	- action_plan
+   - utter_greet
+* inform[location=Paris]
+   - slot{"location": "Paris"}
+   - action_weather
 * goodbye
-	- utter_goodbye
-	
-
+   - utter_goodbye 
 ## story_003
 * greet
-	- utter_greet
+   - utter_greet
 * inform
-	- utter_ask_plan
-* inform[plan=Unit Linked Plan]
-	- slot{"plan": "Unit Linked Plan"}
-	- action_plan
+   - utter_ask_location
+* inform[location=Vilnius]
+   - slot{"location": "Vilnius"}
+   - action_weather
 * goodbye
-	- utter_goodbye
-	
-
+   - utter_goodbye
 ## story_004
 * greet
-	- utter_greet
-* inform
-	- utter_ask_plan
-* inform[plan=ulip]
-	- slot{"plan": "ulip"}
-	- action_plan
+   - utter_greet
+* inform[location=Italy]
+   - slot{"location": "Italy"}
+   - action_weather
 * goodbye
-	- utter_goodbye
-
-
+   - utter_goodbye 
 ## story_005
 * greet
-	- utter_greet
+   - utter_greet
 * inform
-	- utter_ask_plan
-* inform[plan=ULIP]
-	- slot{"plan": "ULIP"}
-	- action_plan
+   - utter_ask_location
+* inform[location=Lithuania]
+   - slot{"location": "Lithuania"}
+   - action_weather
 * goodbye
-	- utter_goodbye
-
-
-## Generated Story 9050472338987894420
+   - utter_goodbye
+## Generated Story -5221871338419870256
 * greet
     - utter_greet
-* inform_insurance
-    - utter_inform_insurance
-* inform{"plan": "endowment plan"}
-    - slot{"plan": "endowment plan"}
-    - action_plan
-    - slot{"plan": "endowment plan"}
+* inform{"location": "pune"}
+    - slot{"location": "pune"}
+    - action_weather
+    - slot{"location": "pune"}
 * goodbye
     - utter_goodbye
     - export
-## Generated Story 9091846541818694849
+## Generated Story 5714574000637293068
 * greet
     - utter_greet
 * inform
-    - utter_inform_insurance
-* goodbye
+    - utter_ask_location
+* inform{"location": "belgium"}
+    - slot{"location": "belgium"}
+    - action_weather
+    - slot{"location": "belgium"}
+* inform
     - utter_goodbye
     - export
-## Generated Story 6356689625040276711
+## Generated Story -733634528733407622
 * greet
     - utter_greet
 * inform
-    - utter_inform_insurance
-* inform{"plan": "term plan"}
-    - slot{"plan": "term plan"}
-    - action_plan
-    - slot{"plan": "term plan"}
-## Generated Story 3795877785217981669
+    - utter_ask_location
+* inform{"location": "beijing"}
+    - slot{"location": "beijing"}
+    - action_weather
+    - slot{"location": "beijing"}
+* inform
+    - utter_goodbye
+    - export
+## Generated Story 7369353860243301921
 * greet
     - utter_greet
-* inform
-    - utter_inform_insurance
-* inform{"plan": "ulip"}
-    - slot{"plan": "ulip"}
-    - action_plan
-    - slot{"plan": "ulip"}
-* inform{"plan": "term plan"}
-    - slot{"plan": "term plan"}
-    - action_plan
-    - slot{"plan": "term plan"}
-* inform{"plan": "endowment plan"}
-    - slot{"plan": "endowment plan"}
-    - action_plan
-    - slot{"plan": "endowment plan"}
-* inform{"plan": "back plan"}
-    - slot{"plan": "back plan"}
-    - action_plan
-    - slot{"plan": "back plan"}
+* founder
+    - utter_founder
+* inform{"location": "bangalore"}
+    - slot{"location": "bangalore"}
+    - action_weather
+    - slot{"location": "bangalore"}
 * goodbye
     - utter_goodbye
     - export
-## Generated Story 3860796071321416359
-    - action_plan
-    - slot{"plan": "back plan"}
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 5050160309148921298
-    - action_plan
-    - slot{"plan": "endowment plan"}
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -5678390561163530955
-* inform
-    - utter_inform_insurance
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 4093448715648544357
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 4093448715648544357
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 4093448715648544357
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3860796071321416359
-    - action_plan
-    - slot{"plan": "back plan"}
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 5050160309148921298
-    - action_plan
-    - slot{"plan": "endowment plan"}
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -5678390561163530955
-* inform
-    - utter_inform_insurance
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 4093448715648544357
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 4093448715648544357
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 4093448715648544357
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3860796071321416359
-    - action_plan
-    - slot{"plan": "back plan"}
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 5050160309148921298
-    - action_plan
-    - slot{"plan": "endowment plan"}
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -5678390561163530955
-* inform
-    - utter_inform_insurance
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 4093448715648544357
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 4093448715648544357
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 4093448715648544357
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3860796071321416359
-    - action_plan
-    - slot{"plan": "back plan"}
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 5050160309148921298
-    - action_plan
-    - slot{"plan": "endowment plan"}
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -5678390561163530955
-* inform
-    - utter_inform_insurance
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 4093448715648544357
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 4093448715648544357
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 4093448715648544357
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 5611258503984708231
-    - action_plan
-    - slot{"plan": "back plan"}
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -6335269414700991000
-    - action_plan
-    - slot{"plan": "term plan"}
-## Generated Story 5363704128325938822
-* inform
-    - utter_inform_insurance
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 6006471740872303183
-    - action_plan
-    - slot{"plan": "endowment plan"}
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7258217686325812687
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7258217686325812687
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7258217686325812687
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 5611258503984708231
-    - action_plan
-    - slot{"plan": "back plan"}
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 5363704128325938822
-* inform
-    - utter_inform_insurance
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 6006471740872303183
-    - action_plan
-    - slot{"plan": "endowment plan"}
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7258217686325812687
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7258217686325812687
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7258217686325812687
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 5611258503984708231
-    - action_plan
-    - slot{"plan": "back plan"}
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -6335269414700991000
-    - action_plan
-    - slot{"plan": "term plan"}
-## Generated Story 5363704128325938822
-* inform
-    - utter_inform_insurance
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 6006471740872303183
-    - action_plan
-    - slot{"plan": "endowment plan"}
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7258217686325812687
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7258217686325812687
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7258217686325812687
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 5611258503984708231
-    - action_plan
-    - slot{"plan": "back plan"}
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -6335269414700991000
-    - action_plan
-    - slot{"plan": "term plan"}
-* greet
-    - utter_goodbye
-    - export
-## Generated Story 5363704128325938822
-* inform
-    - utter_inform_insurance
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 6006471740872303183
-    - action_plan
-    - slot{"plan": "endowment plan"}
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7258217686325812687
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7258217686325812687
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7258217686325812687
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3596072858591309257
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3596072858591309257
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3596072858591309257
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3596072858591309257
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3596072858591309257
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3596072858591309257
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3596072858591309257
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3596072858591309257
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3596072858591309257
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -3299343825587703708
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -3299343825587703708
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -3299343825587703708
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -3299343825587703708
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -3299343825587703708
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -3299343825587703708
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -3299343825587703708
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -3299343825587703708
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -3299343825587703708
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3375121144540987466
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3375121144540987466
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3375121144540987466
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3375121144540987466
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3375121144540987466
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3375121144540987466
-* goodbye
-    - utter_goodbye
-    - export
-
-## Generated Story 3375121144540987466
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3375121144540987466
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 3375121144540987466
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -8087934299396373101
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -8087934299396373101
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -8087934299396373101
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -8087934299396373101
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -8087934299396373101
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -8087934299396373101
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -8087934299396373101
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -8087934299396373101
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -8087934299396373101
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7877819940718016573
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7877819940718016573
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7877819940718016573
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7877819940718016573
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7877819940718016573
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7877819940718016573
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7877819940718016573
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7877819940718016573
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -7877819940718016573
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story 7332310895479546542
+## Generated Story -2099471089963684687
 * greet
     - utter_greet
-* inform
-    - utter_ask_plan
-* inform{"plan": "retirement plan"}
-    - slot{"plan": "retirement plan"}
-    - action_plan
-    - slot{"plan": "retirement plan"}
-* inform{"plan": "ulip"}
-    - slot{"plan": "ulip"}
-    - action_plan
-    - slot{"plan": "ulip"}
+* founder
+    - utter_founder
+    - export
+## Generated Story -6602372327521263522
+* greet
+    - utter_greet
+* founder
+    - utter_founder
 * goodbye
     - utter_goodbye
     - export
-## Generated Story 2937281288200781103
+## Generated Story 4294700539053769595
 * greet
     - utter_greet
-* inform_insurance
-    - utter_inform_insurance
-* inform{"plan": "back plan"}
-    - slot{"plan": "back plan"}
-    - action_plan
-    - slot{"plan": "back plan"}
+* founder
+    - utter_founder
+* inform{"location": "corsica"}
+    - slot{"location": "corsica"}
+    - action_weather
+    - slot{"location": "corsica"}
+    - export
+## Generated Story -5455701757580050984
 * greet
+    - utter_greet
+* founder
+    - utter_founder
+* goodbye
     - utter_goodbye
     - export
-## Generated Story -6086240596865888005
+## Generated Story -7225088386009988432
 * greet
     - utter_greet
-* inform_insurance
-    - utter_inform_insurance
-* inform{"plan": "endowment plan"}
-    - slot{"plan": "endowment plan"}
-    - action_plan
-    - slot{"plan": "endowment plan"}
-* inform
-    - utter_goodbye
+* founder
+    - utter_founder
+* inform{"location": "bhubaneswar"}
+    - slot{"location": "bhubaneswar"}
+    - action_weather
+    - slot{"location": "bhubaneswar"}
+* founder
+    - utter_founder
     - export
-## Generated Story 7570787540145351708
+## Generated Story 2601229917987040408
+* greet
+    - export
+## Generated Story 3792970833853823112
 * greet
     - utter_greet
-* inform
-    - utter_inform_insurance_type
-* inform{"plan": "ulip"}
-    - slot{"plan": "ulip"}
-    - action_plan
-    - slot{"plan": "ulip"}
+* inform{"location": "barcelona"}
+    - slot{"location": "barcelona"}
+    - action_weather
+    - slot{"location": "barcelona"}
+* goodbye
+    - utter_goodbye
     - export
